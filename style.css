@@ -1,0 +1,133 @@
+p {
+    margin: 0;
+}
+
+body {
+    color: aliceblue;
+    display: flex;
+}
+
+input {
+    padding: 10px 5px;
+    border-radius: 6px;
+    border: 0;
+    background-color: ghostwhite;
+    border: 1px solid black;
+}
+
+select {
+    padding: 10px 5px;
+    border-radius: 6px;
+    border: 0;
+    cursor: pointer;
+    background-color: ghostwhite;
+    border: 1px solid black;
+}
+
+button {
+    padding: 10px 5px;
+    border-radius: 6px;
+    border: 0;
+    background-color: ghostwhite;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border: 1px solid black;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card {
+    width: 380px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 16px;
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 100px
+    ;
+}
+
+.name {
+    text-transform: uppercase;
+}
+
+.flex_name {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+}
+
+.number {
+    margin-bottom: 5px;
+}
+
+.date {
+    margin-bottom: 5px;
+}
+
+.bank {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    right: 10px;
+}
+
+.system {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: -30px;
+}
+
+.card_info {
+    margin-top: auto;
+}
+
+.flex {
+    display: flex;
+    gap: 50px;
+}
+
+.flex_res {
+    display: flex;
+    margin: 0 100px;
+}
+
+.res_item {
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 5px;
+    box-sizing: border-box;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.res_img {
+    max-height: 100px;
+    max-width: 100px;
+}
